@@ -1,7 +1,7 @@
 rm -rf _build
 cd ..
-jupyter-book build second-try
-cd second-try
+jupyter-book build dviz-book
+cd dviz-book
 git add .
 git commit -m "some messages here."
 git push origin master
